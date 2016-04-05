@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A280F0B1CB3AB1300F06584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A280F0A1CB3AB1300F06584 /* main.m */; };
+		5A280F0E1CB3AB1300F06584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A280F0D1CB3AB1300F06584 /* AppDelegate.m */; };
+		5A280F111CB3AB1300F06584 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A280F101CB3AB1300F06584 /* ViewController.m */; };
+		5A280F141CB3AB1300F06584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A280F121CB3AB1300F06584 /* Main.storyboard */; };
+		5A280F161CB3AB1300F06584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A280F151CB3AB1300F06584 /* Assets.xcassets */; };
+		5A280F191CB3AB1300F06584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A280F171CB3AB1300F06584 /* LaunchScreen.storyboard */; };
+		5A280F241CB3AB1300F06584 /* JWActionSheetViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A280F231CB3AB1300F06584 /* JWActionSheetViewTests.m */; };
+		5A280F2F1CB3AB1300F06584 /* JWActionSheetViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A280F2E1CB3AB1300F06584 /* JWActionSheetViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A280F201CB3AB1300F06584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A280EFE1CB3AB1300F06584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A280F051CB3AB1300F06584;
+			remoteInfo = JWActionSheetView;
+		};
+		5A280F2B1CB3AB1300F06584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A280EFE1CB3AB1300F06584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A280F051CB3AB1300F06584;
+			remoteInfo = JWActionSheetView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A280F061CB3AB1300F06584 /* JWActionSheetView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWActionSheetView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A280F0A1CB3AB1300F06584 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A280F0C1CB3AB1300F06584 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A280F0D1CB3AB1300F06584 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A280F0F1CB3AB1300F06584 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A280F101CB3AB1300F06584 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A280F131CB3AB1300F06584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A280F151CB3AB1300F06584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A280F181CB3AB1300F06584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A280F1A1CB3AB1300F06584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A280F1F1CB3AB1300F06584 /* JWActionSheetViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWActionSheetViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A280F231CB3AB1300F06584 /* JWActionSheetViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWActionSheetViewTests.m; sourceTree = "<group>"; };
+		5A280F251CB3AB1300F06584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A280F2A1CB3AB1300F06584 /* JWActionSheetViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWActionSheetViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A280F2E1CB3AB1300F06584 /* JWActionSheetViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWActionSheetViewUITests.m; sourceTree = "<group>"; };
+		5A280F301CB3AB1300F06584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A280F031CB3AB1300F06584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A280F1C1CB3AB1300F06584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A280F271CB3AB1300F06584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A280EFD1CB3AB1300F06584 = {
+			isa = PBXGroup;
+			children = (
+				5A280F081CB3AB1300F06584 /* JWActionSheetView */,
+				5A280F221CB3AB1300F06584 /* JWActionSheetViewTests */,
+				5A280F2D1CB3AB1300F06584 /* JWActionSheetViewUITests */,
+				5A280F071CB3AB1300F06584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A280F071CB3AB1300F06584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A280F061CB3AB1300F06584 /* JWActionSheetView.app */,
+				5A280F1F1CB3AB1300F06584 /* JWActionSheetViewTests.xctest */,
+				5A280F2A1CB3AB1300F06584 /* JWActionSheetViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A280F081CB3AB1300F06584 /* JWActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				5A280F0C1CB3AB1300F06584 /* AppDelegate.h */,
+				5A280F0D1CB3AB1300F06584 /* AppDelegate.m */,
+				5A280F0F1CB3AB1300F06584 /* ViewController.h */,
+				5A280F101CB3AB1300F06584 /* ViewController.m */,
+				5A280F121CB3AB1300F06584 /* Main.storyboard */,
+				5A280F151CB3AB1300F06584 /* Assets.xcassets */,
+				5A280F171CB3AB1300F06584 /* LaunchScreen.storyboard */,
+				5A280F1A1CB3AB1300F06584 /* Info.plist */,
+				5A280F091CB3AB1300F06584 /* Supporting Files */,
+			);
+			path = JWActionSheetView;
+			sourceTree = "<group>";
+		};
+		5A280F091CB3AB1300F06584 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A280F0A1CB3AB1300F06584 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A280F221CB3AB1300F06584 /* JWActionSheetViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A280F231CB3AB1300F06584 /* JWActionSheetViewTests.m */,
+				5A280F251CB3AB1300F06584 /* Info.plist */,
+			);
+			path = JWActionSheetViewTests;
+			sourceTree = "<group>";
+		};
+		5A280F2D1CB3AB1300F06584 /* JWActionSheetViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A280F2E1CB3AB1300F06584 /* JWActionSheetViewUITests.m */,
+				5A280F301CB3AB1300F06584 /* Info.plist */,
+			);
+			path = JWActionSheetViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A280F051CB3AB1300F06584 /* JWActionSheetView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A280F331CB3AB1300F06584 /* Build configuration list for PBXNativeTarget "JWActionSheetView" */;
+			buildPhases = (
+				5A280F021CB3AB1300F06584 /* Sources */,
+				5A280F031CB3AB1300F06584 /* Frameworks */,
+				5A280F041CB3AB1300F06584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWActionSheetView;
+			productName = JWActionSheetView;
+			productReference = 5A280F061CB3AB1300F06584 /* JWActionSheetView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A280F1E1CB3AB1300F06584 /* JWActionSheetViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A280F361CB3AB1300F06584 /* Build configuration list for PBXNativeTarget "JWActionSheetViewTests" */;
+			buildPhases = (
+				5A280F1B1CB3AB1300F06584 /* Sources */,
+				5A280F1C1CB3AB1300F06584 /* Frameworks */,
+				5A280F1D1CB3AB1300F06584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A280F211CB3AB1300F06584 /* PBXTargetDependency */,
+			);
+			name = JWActionSheetViewTests;
+			productName = JWActionSheetViewTests;
+			productReference = 5A280F1F1CB3AB1300F06584 /* JWActionSheetViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A280F291CB3AB1300F06584 /* JWActionSheetViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A280F391CB3AB1300F06584 /* Build configuration list for PBXNativeTarget "JWActionSheetViewUITests" */;
+			buildPhases = (
+				5A280F261CB3AB1300F06584 /* Sources */,
+				5A280F271CB3AB1300F06584 /* Frameworks */,
+				5A280F281CB3AB1300F06584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A280F2C1CB3AB1300F06584 /* PBXTargetDependency */,
+			);
+			name = JWActionSheetViewUITests;
+			productName = JWActionSheetViewUITests;
+			productReference = 5A280F2A1CB3AB1300F06584 /* JWActionSheetViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A280EFE1CB3AB1300F06584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JW;
+				TargetAttributes = {
+					5A280F051CB3AB1300F06584 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5A280F1E1CB3AB1300F06584 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5A280F051CB3AB1300F06584;
+					};
+					5A280F291CB3AB1300F06584 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5A280F051CB3AB1300F06584;
+					};
+				};
+			};
+			buildConfigurationList = 5A280F011CB3AB1300F06584 /* Build configuration list for PBXProject "JWActionSheetView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A280EFD1CB3AB1300F06584;
+			productRefGroup = 5A280F071CB3AB1300F06584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A280F051CB3AB1300F06584 /* JWActionSheetView */,
+				5A280F1E1CB3AB1300F06584 /* JWActionSheetViewTests */,
+				5A280F291CB3AB1300F06584 /* JWActionSheetViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A280F041CB3AB1300F06584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A280F191CB3AB1300F06584 /* LaunchScreen.storyboard in Resources */,
+				5A280F161CB3AB1300F06584 /* Assets.xcassets in Resources */,
+				5A280F141CB3AB1300F06584 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A280F1D1CB3AB1300F06584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A280F281CB3AB1300F06584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A280F021CB3AB1300F06584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A280F111CB3AB1300F06584 /* ViewController.m in Sources */,
+				5A280F0E1CB3AB1300F06584 /* AppDelegate.m in Sources */,
+				5A280F0B1CB3AB1300F06584 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A280F1B1CB3AB1300F06584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A280F241CB3AB1300F06584 /* JWActionSheetViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A280F261CB3AB1300F06584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A280F2F1CB3AB1300F06584 /* JWActionSheetViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A280F211CB3AB1300F06584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A280F051CB3AB1300F06584 /* JWActionSheetView */;
+			targetProxy = 5A280F201CB3AB1300F06584 /* PBXContainerItemProxy */;
+		};
+		5A280F2C1CB3AB1300F06584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A280F051CB3AB1300F06584 /* JWActionSheetView */;
+			targetProxy = 5A280F2B1CB3AB1300F06584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A280F121CB3AB1300F06584 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A280F131CB3AB1300F06584 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A280F171CB3AB1300F06584 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A280F181CB3AB1300F06584 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A280F311CB3AB1300F06584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A280F321CB3AB1300F06584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A280F341CB3AB1300F06584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWActionSheetView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWActionSheetView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A280F351CB3AB1300F06584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWActionSheetView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWActionSheetView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A280F371CB3AB1300F06584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWActionSheetViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWActionSheetViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWActionSheetView.app/JWActionSheetView";
+			};
+			name = Debug;
+		};
+		5A280F381CB3AB1300F06584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWActionSheetViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWActionSheetViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWActionSheetView.app/JWActionSheetView";
+			};
+			name = Release;
+		};
+		5A280F3A1CB3AB1300F06584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWActionSheetViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWActionSheetViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWActionSheetView;
+			};
+			name = Debug;
+		};
+		5A280F3B1CB3AB1300F06584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWActionSheetViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWActionSheetViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWActionSheetView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A280F011CB3AB1300F06584 /* Build configuration list for PBXProject "JWActionSheetView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A280F311CB3AB1300F06584 /* Debug */,
+				5A280F321CB3AB1300F06584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A280F331CB3AB1300F06584 /* Build configuration list for PBXNativeTarget "JWActionSheetView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A280F341CB3AB1300F06584 /* Debug */,
+				5A280F351CB3AB1300F06584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A280F361CB3AB1300F06584 /* Build configuration list for PBXNativeTarget "JWActionSheetViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A280F371CB3AB1300F06584 /* Debug */,
+				5A280F381CB3AB1300F06584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A280F391CB3AB1300F06584 /* Build configuration list for PBXNativeTarget "JWActionSheetViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A280F3A1CB3AB1300F06584 /* Debug */,
+				5A280F3B1CB3AB1300F06584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A280EFE1CB3AB1300F06584 /* Project object */;
+}

@@ -15,6 +15,8 @@
 		5A280F191CB3AB1300F06584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A280F171CB3AB1300F06584 /* LaunchScreen.storyboard */; };
 		5A280F241CB3AB1300F06584 /* JWActionSheetViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A280F231CB3AB1300F06584 /* JWActionSheetViewTests.m */; };
 		5A280F2F1CB3AB1300F06584 /* JWActionSheetViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A280F2E1CB3AB1300F06584 /* JWActionSheetViewUITests.m */; };
+		5A85C72F1CB49CBE001F46FA /* JWActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A85C72E1CB49CBE001F46FA /* JWActionSheetView.m */; };
+		5A85C7311CB49D3B001F46FA /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A85C7301CB49D3B001F46FA /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		5A280F2A1CB3AB1300F06584 /* JWActionSheetViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWActionSheetViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A280F2E1CB3AB1300F06584 /* JWActionSheetViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWActionSheetViewUITests.m; sourceTree = "<group>"; };
 		5A280F301CB3AB1300F06584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A85C72D1CB49CBE001F46FA /* JWActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWActionSheetView.h; sourceTree = "<group>"; };
+		5A85C72E1CB49CBE001F46FA /* JWActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWActionSheetView.m; sourceTree = "<group>"; };
+		5A85C7301CB49D3B001F46FA /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		5A280F081CB3AB1300F06584 /* JWActionSheetView */ = {
 			isa = PBXGroup;
 			children = (
+				5A85C7301CB49D3B001F46FA /* background.jpg */,
 				5A280F0C1CB3AB1300F06584 /* AppDelegate.h */,
 				5A280F0D1CB3AB1300F06584 /* AppDelegate.m */,
 				5A280F0F1CB3AB1300F06584 /* ViewController.h */,
 				5A280F101CB3AB1300F06584 /* ViewController.m */,
+				5A85C72D1CB49CBE001F46FA /* JWActionSheetView.h */,
+				5A85C72E1CB49CBE001F46FA /* JWActionSheetView.m */,
 				5A280F121CB3AB1300F06584 /* Main.storyboard */,
 				5A280F151CB3AB1300F06584 /* Assets.xcassets */,
 				5A280F171CB3AB1300F06584 /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A280F191CB3AB1300F06584 /* LaunchScreen.storyboard in Resources */,
+				5A85C7311CB49D3B001F46FA /* background.jpg in Resources */,
 				5A280F161CB3AB1300F06584 /* Assets.xcassets in Resources */,
 				5A280F141CB3AB1300F06584 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A280F111CB3AB1300F06584 /* ViewController.m in Sources */,
+				5A85C72F1CB49CBE001F46FA /* JWActionSheetView.m in Sources */,
 				5A280F0E1CB3AB1300F06584 /* AppDelegate.m in Sources */,
 				5A280F0B1CB3AB1300F06584 /* main.m in Sources */,
 			);
@@ -496,6 +506,7 @@
 				5A280F351CB3AB1300F06584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A280F361CB3AB1300F06584 /* Build configuration list for PBXNativeTarget "JWActionSheetViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				5A280F381CB3AB1300F06584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A280F391CB3AB1300F06584 /* Build configuration list for PBXNativeTarget "JWActionSheetViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				5A280F3B1CB3AB1300F06584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
